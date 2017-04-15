@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<title></title>
+</head>
+<body>
+
+	<!-- <button onclick="startGame()">Start BlackJack</button> -->
+	<section id="casino">
+		<div class="container wex">
+			<div class="row">
+			<h1>Welcome to the Table</h1>
+			<div class="col-lg-6">
+
+
+			<div class="cards">	
+			<p id="dealerDeck">	</p>	
+			</div>
+			<h2>Dealer</h2>
+			<h2>
+			Dealer Balance:
+			<div id="dealerBalance">	
+			</div>
+			</h2>
+		</div>
+		<div class="col-lg-6">
+			<div class="cards">
+			<p id="playerDeck" ></p>
+			</div>
+			<h2>Player</h2>
+			<h2>
+			Player Balance: 
+			<div id="playerBalance">
+			</div>
+			</h2>
+		</div>
+			<div id="results">	
+			</div>
+			<button id="playerHit">
+				Hit Me
+			</button>
+			<button onclick="stand()" id="playerStand">
+				Stand
+			</button>
+			<h3 style="color: white">Stake:<p id="stake"></p></h3>
+			<button onclick="setFive()">5</button>
+			<button onclick="setTen()">10</button>
+			<button onclick="setFifteen()">15</button>	
+			</div>
+		</div>
+	</section>
+	<div style="height: 600px; background-color: #00a2e3">
+		<img style="width: 50px" src="img/logo-final-white.jpg">
+	</div>
+	
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>
